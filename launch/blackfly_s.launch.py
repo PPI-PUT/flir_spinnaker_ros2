@@ -30,7 +30,7 @@ camera_params = {
     'exposure_auto': 'Continuous',
     # 'device_link_throughput_limit': 380000000,
     'frame_rate_auto': 'Off',
-    'frame_rate': 20.0,
+    'frame_rate': 55.0,
     'frame_rate_enable': True,
     'trigger_mode': 'Off',
     'chunk_mode_active': True,
@@ -49,7 +49,7 @@ def generate_launch_description():
     """Launch camera node."""
     flir_dir = get_package_share_directory('flir_spinnaker_ros2')
     config_dir = flir_dir + '/config/'
-    name_arg = LaunchArg('camera_name', default_value='blackfly_s',
+    name_arg = LaunchArg('camera_name', default_value='camera',
                          description='camera name')
     serial_arg = LaunchArg('serial', default_value="'20435008'",
                            description='serial number')
