@@ -51,7 +51,7 @@ def generate_launch_description():
     config_dir = flir_dir + '/config/'
     name_arg = LaunchArg('camera_name', default_value='camera',
                          description='camera name')
-    serial_arg = LaunchArg('serial', default_value="'20435008'",
+    serial_arg = LaunchArg('serial', default_value="'21126305'",
                            description='serial number')
 
     node = Node(package='flir_spinnaker_ros2',
