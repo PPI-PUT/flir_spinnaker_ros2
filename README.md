@@ -78,7 +78,7 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_E
 
 How to launch the example files:
 ```
-ros2 launch flir_spinnaker_ros2 blackfly_s.launch.py camera_name:=camera serial:="'20435008'"
+ros2 launch flir_spinnaker_ros2 blackfly_s.launch.py camera_name:=camera serial:="'21126305'"
 ```
 
 ## Setting up GigE cameras
